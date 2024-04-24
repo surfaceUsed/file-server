@@ -1,0 +1,6 @@
+This is the first test document created!
+
+This is meant to be sent accross a socket connection, from a 
+client to a server.
+
+Good luck!
