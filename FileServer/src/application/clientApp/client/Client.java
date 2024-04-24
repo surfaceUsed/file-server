@@ -41,6 +41,7 @@ public class Client {
                         output.writeUTF(clientRequest);
                         this.fileHandler.getFile(input, output);
                         break;
+                        
                         case PUT:
                             output.writeUTF(clientRequest);
                             this.fileHandler.saveFile(input, output);
@@ -66,6 +67,7 @@ public class Client {
 
         } catch (IOException e) {
             System.err.println("[CLIENT] Error connecting to server: " + e.getMessage());
+        } finally {
             closeConnection();
         }
     }
