@@ -1,7 +1,7 @@
 # file-server
 Multi client server application for saving and retreiving files
 
-Hyperskill project (Java developer). Stage 4/4.
+Hyperskill project "File server" (Java developer). Stage 4/4.
 
 Application for client requests (PUT, GET, DELETE) using sockets. 
 The client can save, retreive and delete files from the server. When a client
